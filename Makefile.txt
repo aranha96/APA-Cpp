@@ -1,0 +1,5 @@
+CC=gcc
+CFLAGS=-I.
+
+SelectionSORT: SelectionSORT.cpp
+     $(CC) -o SelectionSORT SelectionSORT.cpp -I.
