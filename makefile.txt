@@ -1,0 +1,8 @@
+CC=gcc
+CFLAGS=-I.
+
+InsertionSORT: InsertionSORT.cpp
+     $(CC) -o InsertionSORT InsertionSORT.cpp -I.
+
+
+
